@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div#form > h1 {
+    text-align: center;
+
+    margin: 10px 0px;
+}
+
+div#form > p {
+    color: gray;
+
+    text-align: center;
+}
