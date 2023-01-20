@@ -33,15 +33,25 @@ div#form > p {
 
 .campo > input {
     font-size: 1em;
-
-    width: 70%;
-    height: 80%;
-
+    
+    background-color: #ecddf6;
+    
+    width: calc(100% - 29px);
+    height: 70%;
+    
     padding: 0px 3px;
-
+    
     border: none;
-
+    
     outline: none;
+}
+
+.campo > input:hover {
+    background-color: #f1e9f6;
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 .campo i {
