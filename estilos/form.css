@@ -10,4 +10,83 @@ div#form > p {
     color: gray;
 
     text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.campo {
+    display: block;
+
+    color: white;
+    background-color: #5f2c82;
+
+    font-weight: bolder;
+
+    width: 95%;
+    height: 40px;
+
+    border-radius: 5px;
+
+    padding: 0px 5px;
+    margin: 8px auto;
+}
+
+.campo > input {
+    font-size: 1em;
+
+    width: 70%;
+    height: 80%;
+
+    padding: 0px 3px;
+
+    border: none;
+
+    outline: none;
+}
+
+.campo i {
+    transform: translate(0px, 8px);
+}
+
+form > input[type=submit], form > a {
+    cursor: pointer;
+
+    display: block;
+
+    color: white;
+    background-color: #49a09d;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-weight: bolder;
+    font-size: 1em;
+
+    width: 95%;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    margin: 8px auto;
+}
+
+a > i {
+    transform: translate(0px, 8px);
+}
+
+form > input[type=submit]:hover, form > a:hover {
+    background-color: #38b3ac;
+}
+
+form > input[type=submit]:active, form > a:active {
+    background-color: #3a807d;
+}
+
+@media screen and (min-width: 768px) {
+
+    div#form > p {
+        font-size: 1.2em;
+    }
+
 }
